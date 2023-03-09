@@ -1,0 +1,22 @@
+<resources>
+    <!--Splash Screen Start-->
+    <string name="app_name">Attendance</string>
+    <string name="splash_corners">SplashCorners</string>
+    <!--Splash Screen End-->
+
+    <!--Sign In Start-->
+    <string name="signin_text">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or_with">Or with</string>
+    <string name="activity_link_signup">Have not an account yet? <u>Sign Up</u></string>
+    <!--Sign In End-->
+
+    <!--Sign Up Start-->
+    <string name="signup_text">Sign Up</string>
+    <string name="user_name">Name</string>
+    <string name="activity_link_signin">Already have an account? <u>Sign In</u></string>
+    <!--Sign Up End-->
+</resources>
