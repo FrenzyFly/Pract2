@@ -14,20 +14,20 @@
         android:layout_height="wrap_content"
         android:contentDescription="@string/splash_corners"
         android:rotation="90"
-        android:src="@drawable/ic_splash_corners"
+        android:src="@drawable/ic_welscreen_corners"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
-        android:name="com.example.myapplication.Fragments.SignInFragment"
+        android:name="com.example.pract2.Fragments.SinFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout="@layout/fragment_sign_in" />
+        tools:layout="@layout/fragment_sin" />
 
     <ImageView
         android:id="@+id/signin_corner2"
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:contentDescription="@string/splash_corners"
         android:rotation="-90"
-        android:src="@drawable/ic_splash_corners"
+        android:src="@drawable/ic_welscreen_corners"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
