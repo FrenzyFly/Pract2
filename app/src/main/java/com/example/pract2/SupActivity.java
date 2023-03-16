@@ -16,7 +16,7 @@ public class SupActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sup);
+        setContentView(R.layout.fragment_sup);
 
         TextView sign_up_text = findViewById(R.id.signup_text);
         sign_up_text.setText("Sign Up");
