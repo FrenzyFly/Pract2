@@ -10,7 +10,7 @@
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
-    tools:context=".Fragments.SignUpFragment">
+    tools:context=".Fragments.SupFragment">
 
     <TextView
         android:id="@+id/signup_text"
@@ -104,7 +104,7 @@
         android:layout_height="54dp"
         android:layout_gravity="center"
         android:layout_marginTop="24dp"
-        android:background="@drawable/sign_button_shape"
+        android:background="@drawable/sin_button_form"
         android:backgroundTint="@color/border_choose"
         android:text="@string/signup_text"
         android:textAppearance="@style/general"
@@ -156,7 +156,7 @@
         android:layout_width="312dp"
         android:layout_height="48dp"
         android:layout_marginTop="24dp"
-        android:background="@drawable/sign_button_shape"
+        android:background="@drawable/sin_button_form"
         android:backgroundTint="@color/facebook_blue"
         android:text="Sign Up with Facebook"
         android:textAllCaps="false" />
@@ -166,7 +166,7 @@
         android:layout_width="312dp"
         android:layout_height="48dp"
         android:layout_marginTop="24dp"
-        android:background="@drawable/sign_button_shape"
+        android:background="@drawable/sin_button_form"
         android:backgroundTint="#FFFDFE"
         android:text="Sign Up with Google"
         android:textAllCaps="false"
@@ -176,7 +176,7 @@
         android:id="@+id/signin_link"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:text="@string/activity_link_signin"
         android:textAppearance="@style/general"
