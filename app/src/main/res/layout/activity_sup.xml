@@ -126,7 +126,7 @@
             android:backgroundTint="@color/border_choose"
             android:text="@string/signup_text"
             android:textAppearance="@style/general"
-            android:textColor="#C62828"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
