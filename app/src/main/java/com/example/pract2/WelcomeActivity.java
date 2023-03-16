@@ -21,7 +21,7 @@ public class WelcomeActivity extends AppCompatActivity {
                 } catch (Exception e) {
                     e.printStackTrace();
                 } finally {
-                    startActivity(new Intent(WelcomeActivity.this, SinActivity.class));
+                    startActivity(new Intent(WelcomeActivity.this, SActivity.class));
                     finish();
                 }
             }
