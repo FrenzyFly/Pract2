@@ -10,7 +10,7 @@
     <color name="splash_background">#006600</color>
     <color name="splash_corners">#00E6AC</color>
     <color name="text_color">#FFFDFE</color>
-    <color name="border_choose">#21D2D2</color>
+    <color name="border_choose">#AB1818</color>
     <color name="facebook_blue">#1877F2</color>
     <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/text_color</color>
 </resources>
